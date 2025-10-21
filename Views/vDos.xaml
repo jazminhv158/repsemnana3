@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="s3jherreraclase.Views.vDos"
+             Title="Dos">
+    <VerticalStackLayout>
+        <Label 
+            Text="VISTA 2"
+            FontSize="20"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+        <!--OBJETO QUE RECIBE EL DATO-->
+
+        <Label x:Name="lbldato1"
+               TextColor="red">
+            
+        </Label>
+
+        <Label x:Name="lbldato2"
+               TextColor="Yellow">
+            
+        </Label>
+    </VerticalStackLayout>
+</ContentPage>
