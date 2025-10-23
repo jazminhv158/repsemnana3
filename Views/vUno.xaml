@@ -37,12 +37,14 @@
         </Entry>
         
         <Button x:Name="btnAbrir"
+                Style="{StaticResource estilobutton}"
                 Text="Abrir Ventana"
                 Clicked="btnAbrir_Clicked">
             
         </Button>
 
         <Button x:Name="btnRegistro"
+                Style="{StaticResource estilobutton}"
                 Text="Abrir Ventana de registro"
                 Clicked="btnRegistro_Clicked">
             
