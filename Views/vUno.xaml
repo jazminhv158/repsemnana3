@@ -9,7 +9,7 @@
     <ContentPage.Resources>
         <Style x:Key="estiloLabel" TargetType="Label">
             <Setter Property="FontSize" Value="50"/>
-            <Setter Property="TextColor" Value="Red"></Setter>
+            <Setter Property="TextColor" Value="Red"/>
          </Style>
 
                 <Style x:Key="estilobotton" TargetType="Button">
@@ -37,14 +37,14 @@
         </Entry>
         
         <Button x:Name="btnAbrir"
-                Style="{StaticResource estilobutton}"
+                Style="{StaticResource estilobotton}"
                 Text="Abrir Ventana"
                 Clicked="btnAbrir_Clicked">
             
         </Button>
 
         <Button x:Name="btnRegistro"
-                Style="{StaticResource estilobutton}"
+                Style="{StaticResource estilobotton}"
                 Text="Abrir Ventana de registro"
                 Clicked="btnRegistro_Clicked">
             
