@@ -6,7 +6,7 @@ public partial class vUno : ContentPage
 {
     //VARIABBLESSSSSS-GLOBALES
     string usuarioglobal="a";
-    string contrasenaglobal;
+    string contrasenaglobal= "";
 
     public vUno()
 	{
