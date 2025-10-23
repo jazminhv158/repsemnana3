@@ -3,6 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="s3jherreraclase.Views.vUno"
              Title="Uno">
+    
+    <!--ESTILOS-->
+
+    <ContentPage.Resources>
+        <Style x:Key="estiloLabel" TargetType="Label">
+            <Setter Property="FontSize" Value="50"/>
+            <Setter Property="TextColor" Value="Red"></Setter>
+         </Style>
+
+                <Style x:Key="estilobotton" TargetType="Button">
+                    <Setter Property="Background" Value="Yellow"/>
+                    <Setter Property="TextColor" Value="Blue"/>
+                </Style>
+    </ContentPage.Resources>
+    
     <VerticalStackLayout
         Spacing="20"
         Padding="20">

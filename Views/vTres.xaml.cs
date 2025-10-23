@@ -7,24 +7,19 @@ public partial class vTres : ContentPage
 		InitializeComponent();
 	}
 
-    private void tnSalir_Clicked(object sender, EventArgs e)
-    {
-		try
-		{
-			string usuario = txtUsuario.Text;
-			string contrasena = txtContraena.Text;
-			Navigation.PushAsync(new vUno(usuario, contrasena));
-		}
-		catch (Exception)
-		{
-
-		}
-
-    }
-
+   
     private void btnGuardar_Clicked(object sender, EventArgs e)
     {
-
+        try
+        {
+            string usuario = txtUsuario.Text;
+            string contrasena = txtContraena.Text;
+            Navigation.PushAsync(new vUno(usuario, contrasena));
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.ToString());
+        }
     }
 
    

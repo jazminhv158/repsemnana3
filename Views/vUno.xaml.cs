@@ -16,8 +16,8 @@ public partial class vUno : ContentPage
     public vUno(string usuarioacceso, string constrasenaacceso)
     {
         InitializeComponent();
-        string usuarioglobal = usuarioacceso;
-        string contrasenaglobal = constrasenaacceso;
+        usuarioglobal = usuarioacceso;
+        contrasenaglobal = constrasenaacceso;
     }
 
 
@@ -29,7 +29,6 @@ public partial class vUno : ContentPage
 			
 			string usuario = txtUsuario.Text;
 			string contrasena = txtContraena.Text;
-			Navigation.PushAsync(new vDos(usuario, contrasena));
 
 			if (usuario == usuarioglobal && contrasena == contrasenaglobal) 
 			{
